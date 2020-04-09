@@ -1,11 +1,13 @@
 package com.example.stazerprojectapp;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.stazerprojectapp.services.AcserviceActivity;
 import com.example.stazerprojectapp.services.BannerElePluCarActivity;
@@ -17,7 +19,9 @@ import com.example.stazerprojectapp.services.PestControlActivity;
 import com.example.stazerprojectapp.services.PlumbersActivity;
 import com.example.stazerprojectapp.services.RefrigretorActivity;
 import com.example.stazerprojectapp.services.RoserviceActivity;
-import com.example.stazerprojectapp.services.WashingmachineActivity;
+import com.google.firebase.auth.FirebaseAuth;
+
+import static com.google.android.gms.common.internal.safeparcel.SafeParcelable.NULL;
 
 public class MainScreenActivity extends AppCompatActivity {
 
@@ -27,6 +31,32 @@ public class MainScreenActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_screen);
+
+
+        // get saved phone number
+        SharedPreferences prefs =  getApplicationContext().getSharedPreferences("USER_PREF",
+                Context.MODE_PRIVATE);
+        phoneNumber = prefs.getString("phoneNumber", NULL);
+
+        mobileNumber = findViewById(R.id.mobileNumber);
+        mobileNumber.setText(phoneNumber);
+
+        findViewById(R.id.buttonLogout).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FirebaseAuth.getInstance().signOut();
+
+                Intent intent = new Intent(MainScreenActivity.this, MainActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                startActivity(intent);
+            }
+        });
+
+
+
+
+
+
 
         findViewById(R.id.electricianbutton).setOnClickListener(new View.OnClickListener() {
             @Override

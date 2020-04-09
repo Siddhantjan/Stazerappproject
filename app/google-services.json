@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "666777534713",
+    "firebase_url": "https://stazerapp.firebaseio.com",
+    "project_id": "stazerapp",
+    "storage_bucket": "stazerapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666777534713:android:eedd26e8aa81cea5092228",
+        "android_client_info": {
+          "package_name": "com.example.stazerprojectapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666777534713-6dphdmtff09mj6df7mn2512306221v2l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB53o1FX7lUf0fBx1nTptLba8R1h_M0cpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666777534713-6dphdmtff09mj6df7mn2512306221v2l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.stazerprojectapp">
 
     <application
@@ -9,6 +10,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".BookingPage"></activity>
+        <activity
+            android:name=".TermsandConditionsActivity"
+            android:theme="@style/stazertheme" />
+        <activity
+            android:name=".ratecaed.AcRateCardActivity"
+            android:theme="@style/stazertheme" />
         <activity android:name=".services.PestControlActivity" />
         <activity android:name=".services.CleaningService" />
         <activity android:name=".services.WashingmachineActivity" />
@@ -20,7 +28,14 @@
         <activity android:name=".services.CarpentersActivity" />
         <activity android:name=".services.PlumbersActivity" />
         <activity android:name=".services.ElectricianActivity" />
-        <activity android:name=".MainScreenActivity"
+        <activity
+            android:name=".MainScreenActivity"
+            android:theme="@style/stazertheme" />
+        <activity
+            android:name=".VerifyPhoneActivity"
+            android:theme="@style/stazertheme" />
+        <activity
+            android:name=".MainActivity"
             android:theme="@style/stazertheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,7 +43,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>
