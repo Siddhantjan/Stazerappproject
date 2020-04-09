@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".services.BannerElePluCarActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/electricianactbutton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/electrician"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Electrician"
+            android:textSize="30dp"
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/plumberactbutton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/plumber"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Plumber"
+            android:textSize="30dp"
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/carpenteractbutton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/carpenters"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Carpenter"
+            android:textSize="30dp"
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+</RelativeLayout>
