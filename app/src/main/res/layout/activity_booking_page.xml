@@ -27,6 +27,15 @@
         android:textSize="25dp"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
         android:textColor="@color/black" />
+    <TextView
+        android:layout_margin="20dp"
+        android:id="@+id/acserviceselected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Service"
+        android:textSize="25dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+        android:textColor="@color/black"/>
 
 
 </LinearLayout>
