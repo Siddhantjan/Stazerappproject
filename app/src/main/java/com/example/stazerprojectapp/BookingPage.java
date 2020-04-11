@@ -11,7 +11,8 @@ import static com.google.android.gms.common.internal.safeparcel.SafeParcelable.N
 
 public class BookingPage extends AppCompatActivity {
     String phoneNumber;
-    TextView mobileNumber;
+    TextView mobileNumber,servicesel;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,6 +25,11 @@ public class BookingPage extends AppCompatActivity {
 
         mobileNumber = findViewById(R.id.mobileNumber);
         mobileNumber.setText(phoneNumber);
+
+        servicesel=findViewById(R.id.serviceselected);
+
+        String servicename = getIntent().getStringExtra("Service");
+        servicesel.setText(servicename);
 
     }
 }
