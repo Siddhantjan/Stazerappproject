@@ -11,6 +11,7 @@ import android.widget.TextView;
 import com.example.stazerprojectapp.bookingprocess.BookingPage;
 import com.example.stazerprojectapp.R;
 import com.example.stazerprojectapp.TermsandConditionsActivity;
+import com.example.stazerprojectapp.ratecaed.GeyserRateCard;
 
 public class GeyserActivity extends AppCompatActivity {
     Button geyserselect;
@@ -24,7 +25,8 @@ public class GeyserActivity extends AppCompatActivity {
         findViewById(R.id.geyserrate).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(GeyserActivity.this, GeyserRateCard.class);
+                startActivity(intent);
             }
         });
         findViewById(R.id.termsbutton).setOnClickListener(new View.OnClickListener() {

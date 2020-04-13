@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.stazerprojectapp.bookingprocess.BookingPage;
 import com.example.stazerprojectapp.R;
 import com.example.stazerprojectapp.TermsandConditionsActivity;
+import com.example.stazerprojectapp.ratecaed.RefrigeratorRateCard;
 
 
 public class RefrigretorActivity extends AppCompatActivity {
@@ -31,10 +32,11 @@ public class RefrigretorActivity extends AppCompatActivity {
             }
         });
 
-        findViewById(R.id.viewrefridgeacbutton).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.viewrefridgebutton).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                
+                Intent intent = new Intent(RefrigretorActivity.this, RefrigeratorRateCard.class);
+                startActivity(intent);
             }
         });
 

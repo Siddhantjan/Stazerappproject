@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".services.RefrigretorActivity">
-
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -48,13 +50,25 @@
                 android:textSize="20sp"
                 android:text="Final Repair Cost is Provided after inspection"/>
             <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rates as per Rate Card"
+            android:textSize="20dp"/>
+            <TextView
                 android:layout_marginLeft="8dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Rates as per Rate Card"
+                android:text="Double door charges are different provided after inspection"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_marginLeft="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Multi door charges are different provided after inspection"
                 android:textSize="20dp"/>
             <Button
-                android:id="@+id/viewrefridgeacbutton"
+                android:id="@+id/viewrefridgebutton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="25dp"
@@ -83,3 +97,4 @@
 
     </LinearLayout>
 </ScrollView>
+</RelativeLayout>

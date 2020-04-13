@@ -4,10 +4,105 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".services.RoserviceActivity">
-    <ImageView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="220dp"
-        android:scaleType="fitCenter"
-        android:layout_marginTop="10dp"
-        android:src="@drawable/banner_housepainter"/>
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/roserviceselectbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="RO Service"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/grey_40">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="RATE CARD"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="* A Normal Inspection charges - 249/- includees fixed inspection charges and will be adjust against final bill. "/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="* Final Repair Cost is Provided after inspection"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="* Servicing/ Filter Change Rs.299/- Cleaning of machine and all filters filter change cost extra.Prices as per rate card"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Installation Rs.449"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="unistallation Rs.349"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="unistallation + Installation Rs.599/- to be carried out within the same address "/>
+            <TextView
+                android:id="@+id/termsbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                android:layout_gravity="end"
+                android:text="Terms and Conditions"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/roserviceboookbutton"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book your Service"
+            android:onClick="serviceselect"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/banner_housepainter"/>
+    </LinearLayout>
+    </ScrollView>
 </RelativeLayout>

@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.stazerprojectapp.bookingprocess.BookingPage;
 import com.example.stazerprojectapp.R;
 import com.example.stazerprojectapp.TermsandConditionsActivity;
+import com.example.stazerprojectapp.ratecaed.WashingMachineRateCard;
 
 
 public class WashingmachineActivity extends AppCompatActivity {
@@ -26,7 +27,8 @@ public class WashingmachineActivity extends AppCompatActivity {
         findViewById(R.id.washingmachinerate).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(WashingmachineActivity.this, WashingMachineRateCard.class);
+                startActivity(intent);
             }
         });
         findViewById(R.id.termsbutton).setOnClickListener(new View.OnClickListener() {

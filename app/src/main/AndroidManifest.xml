@@ -9,7 +9,7 @@
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
@@ -18,8 +18,12 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".bookingprocess.BookingProcessingActivity"/>
+        android:theme="@style/stazertheme">
+        <activity android:name=".ratecaed.CleaningServicesRateCard"></activity>
+        <activity android:name=".ratecaed.GeyserRateCard" />
+        <activity android:name=".ratecaed.WashingMachineRateCard" />
+        <activity android:name=".ratecaed.RefrigeratorRateCard" />
+        <activity android:name=".bookingprocess.BookingProcessingActivity" />
         <activity android:name=".services.otherservices.WashingmachineActivity" />
         <activity android:name=".services.cleaningsevices.CarWashingActivity" />
         <activity android:name=".services.cleaningsevices.HouseCleaningActivity" />

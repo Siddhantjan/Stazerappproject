@@ -57,6 +57,7 @@
         android:textColor="@color/black"
         android:gravity="center"
         android:text="Labour Charges are capped at Rs. 599 per AC "/>
+
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
