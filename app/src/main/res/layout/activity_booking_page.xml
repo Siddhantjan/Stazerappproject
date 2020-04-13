@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".BookingPage"
+    tools:context=".bookingprocess.BookingPage"
     android:background="@color/grey_60">
     <ScrollView
        android:layout_width="match_parent"
@@ -15,16 +15,17 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
     <EditText
-        android:background="@drawable/white_border"
         android:textSize="25sp"
         android:layout_margin="20dp"
         android:id="@+id/username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter name"/>
+        android:hint=" Enter name(for Ex:- Sid Jain)"
+        android:textColorHint="@color/white"
+        android:background="@drawable/solid_white_border"
+        android:textColor="@color/white"/>
     <TextView
         android:textStyle="bold"
-
         android:background="@drawable/solid_white_border"
         android:layout_margin="20dp"
         android:id="@+id/mobileNumber"
@@ -48,32 +49,65 @@
         android:textColor="@color/white"/>
 
     <Button
-        android:layout_margin="20dp"
+        android:id="@+id/bt_picker"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:background="@drawable/solid_white_border"
+        android:text="Select your Time"
         android:textColor="@color/white"
-        android:text="Select your Loctaion"
-        android:background="@drawable/solid_white_border"/>
+        android:textSize="20sp"
+        android:textStyle="bold" />
+<TextView
+    android:id="@+id/time_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20sp"
+    android:background="@drawable/solid_white_border"
+    android:gravity="center"
+    android:textColor="@color/white"
+    android:textSize="30sp"/>
+    <EditText
+        android:textSize="25sp"
+        android:layout_margin="20dp"
+        android:id="@+id/flatno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Flat/building no (For Ex:- Stazer Main office 4-h-9)"
+        android:textColorHint="@color/white"
+        android:background="@drawable/solid_white_border"
+        android:textColor="@color/white"/>
 
     <EditText
-        android:background="@drawable/white_border"
         android:textSize="25sp"
         android:layout_margin="20dp"
         android:id="@+id/landmark"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter landmark or flat no"/>
-
+        android:hint="Enter landmark (for Ex :- Near Nandwana hospital)"
+        android:textColorHint="@color/white"
+        android:background="@drawable/solid_white_border"
+        android:textColor="@color/white"/>
     <EditText
-        android:background="@drawable/white_border"
+        android:textSize="25sp"
+        android:layout_margin="20dp"
+        android:id="@+id/areaspecification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Area (for Ex:- Rangbari)"
+        android:textColorHint="@color/white"
+        android:background="@drawable/solid_white_border"
+        android:textColor="@color/white"/>
+    <EditText
         android:textSize="25sp"
         android:layout_margin="20dp"
         android:id="@+id/servicespecification"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter the problem which you repair"/>
+        android:hint=" give service Specification(For Ex:- Switchboard Repair)"
+        android:textColorHint="@color/white"
+        android:background="@drawable/solid_white_border"
+        android:textColor="@color/white"/>
 
     <Button
         android:id="@+id/confirmbookigservice"
@@ -86,7 +120,6 @@
         android:background="@drawable/solid_white_border"
         android:textColor="@color/white"
         android:textSize="25sp"/>
-
 </LinearLayout>
    </ScrollView>
 </LinearLayout>

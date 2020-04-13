@@ -6,273 +6,87 @@
     tools:context=".services.PlumbersActivity">
 
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-            <LinearLayout
+
+        <TextView
+            android:id="@+id/plumbersserviceselectbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Plumber"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/grey_40">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="RATE CARD"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"/>
+            <TextView
+                android:layout_marginLeft="8dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="35dp"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="20dp"
-                    android:text="What do you want help with ?"
-                    android:textColor="@color/black"
-                    android:textSize="25dp"
-                    android:textStyle="bold" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:orientation="horizontal">
-
-                    <LinearLayout
-                        android:layout_width="75dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="20dp"
-                        android:orientation="vertical">
-
-                        <ImageButton
-                            android:id="@+id/quickservicebutton"
-                            android:layout_width="75dp"
-                            android:layout_height="75dp"
-                            android:layout_marginTop="2dp"
-                            android:scaleType="fitCenter"
-                            android:src="@drawable/quick_service" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="39dp"
-                            android:text="Quick Service"
-                            android:textAlignment="center"
-                            android:textColor="@color/black"
-                            android:textStyle="normal"
-                            android:gravity="center_horizontal" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="75dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="20dp"
-                        android:orientation="vertical">
-
-                        <ImageButton
-                            android:id="@+id/basinsinkbutton"
-                            android:layout_width="75dp"
-                            android:layout_height="75dp"
-                            android:layout_marginTop="2dp"
-                            android:scaleType="fitCenter"
-                            android:src="@drawable/basin_sink" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="39dp"
-                            android:text=" Basin and Sink "
-                            android:textAlignment="center"
-                            android:textColor="@color/black"
-                            android:textStyle="normal"
-                            android:gravity="center_horizontal" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="75dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="35dp"
-                        android:orientation="vertical">
-
-                        <ImageButton
-                            android:id="@+id/bathfittingbutton"
-                            android:layout_width="75dp"
-                            android:layout_height="75dp"
-                            android:layout_marginTop="2dp"
-                            android:scaleType="fitCenter"
-                            android:src="@drawable/bath_fitting" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="39dp"
-                            android:text="Bath Fitting"
-                            android:textAlignment="center"
-                            android:textColor="@color/black"
-                            android:textStyle="normal"
-                            android:gravity="center_horizontal" />
-                    </LinearLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:orientation="horizontal">
-
-                    <LinearLayout
-                        android:layout_width="75dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="20dp"
-                        android:orientation="vertical">
-
-                        <ImageButton
-                            android:id="@+id/blockagebutton"
-                            android:layout_width="75dp"
-                            android:layout_height="75dp"
-                            android:layout_marginTop="2dp"
-                            android:scaleType="fitCenter"
-                            android:src="@drawable/blockage" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="39dp"
-                            android:text="Blockage"
-                            android:textAlignment="center"
-                            android:textColor="@color/black"
-                            android:textStyle="normal"
-                            android:gravity="center_horizontal" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="75dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="20dp"
-                        android:orientation="vertical">
-
-                        <ImageButton
-                            android:id="@+id/tapmixerbutton"
-                            android:layout_width="75dp"
-                            android:layout_height="75dp"
-                            android:layout_marginTop="2dp"
-                            android:scaleType="fitCenter"
-                            android:src="@drawable/tap_mixer" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="39dp"
-                            android:text="Tap and Mixer"
-                            android:textAlignment="center"
-                            android:textColor="@color/black"
-                            android:textStyle="normal"
-                            android:gravity="center_horizontal" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="75dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="35dp"
-                        android:orientation="vertical">
-
-                        <ImageButton
-                            android:id="@+id/toiletbutton"
-                            android:layout_width="75dp"
-                            android:layout_height="75dp"
-                            android:layout_marginTop="2dp"
-                            android:scaleType="fitCenter"
-                            android:src="@drawable/toilet" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="39dp"
-                            android:text="Toilet"
-                            android:textAlignment="center"
-                            android:textColor="@color/black"
-                            android:textStyle="normal"
-                            android:gravity="center_horizontal" />
-                    </LinearLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:orientation="horizontal">
-
-                    <LinearLayout
-                        android:layout_width="75dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="20dp"
-                        android:orientation="vertical">
-
-                        <ImageButton
-                            android:id="@+id/watertankbutton"
-                            android:layout_width="75dp"
-                            android:layout_height="75dp"
-                            android:layout_marginTop="2dp"
-                            android:scaleType="fitCenter"
-                            android:src="@drawable/water_tank" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="39dp"
-                            android:text="Water Tank"
-                            android:textAlignment="center"
-                            android:textColor="@color/black"
-                            android:textStyle="normal"
-                            android:gravity="center_horizontal" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="75dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="20dp"
-                        android:orientation="vertical">
-
-                        <ImageButton
-                            android:id="@+id/moterbutton"
-                            android:layout_width="75dp"
-                            android:layout_height="75dp"
-                            android:layout_marginTop="2dp"
-                            android:scaleType="fitCenter"
-                            android:src="@drawable/motor" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="39dp"
-                            android:text="Motor"
-                            android:textAlignment="center"
-                            android:textColor="@color/black"
-                            android:textStyle="normal"
-                            android:gravity="center_horizontal" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="75dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="35dp"
-                        android:orientation="vertical">
-
-                        <ImageButton
-                            android:id="@+id/plumbersomethingelsebutton"
-                            android:layout_width="75dp"
-                            android:layout_height="75dp"
-                            android:layout_marginTop="2dp"
-                            android:scaleType="fitCenter"
-                            android:src="@drawable/something_else" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="39dp"
-                            android:text="Something else?"
-                            android:textAlignment="center"
-                            android:textColor="@color/black"
-                            android:textStyle="normal"
-                            android:gravity="center_horizontal" />
-                    </LinearLayout>
-                </LinearLayout>
-            </LinearLayout>
-
-
+                android:textSize="20dp"
+                android:text="A Normal Inspection charges - 199/-"/>
+            <TextView
+                android:layout_marginLeft="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Final Repair Cost is Provided after inspection"/>
+            <TextView
+                android:layout_marginLeft="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rates as per Rate Card"
+                android:textSize="20dp"/>
+           <Button
+                android:id="@+id/plurate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="View more"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textAppearance="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_gravity="right"/>
+            <TextView
+                android:id="@+id/termsbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Terms and Conditions"/>
         </LinearLayout>
+
+        <Button
+            android:id="@+id/plumbersserviceboookbutton"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book your Service"
+            android:onClick="serviceselect"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/banner_housepainter"/>
+    </LinearLayout>
 </ScrollView>

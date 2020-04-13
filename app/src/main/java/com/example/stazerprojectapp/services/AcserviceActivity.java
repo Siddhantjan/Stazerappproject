@@ -1,6 +1,5 @@
 package com.example.stazerprojectapp.services;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -9,7 +8,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.stazerprojectapp.BookingPage;
+import com.example.stazerprojectapp.bookingprocess.BookingPage;
 import com.example.stazerprojectapp.R;
 import com.example.stazerprojectapp.ratecaed.AcRateCardActivity;
 import com.example.stazerprojectapp.TermsandConditionsActivity;

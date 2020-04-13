@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.stazerprojectapp.BookingPage;
+import com.example.stazerprojectapp.bookingprocess.BookingPage;
 import com.example.stazerprojectapp.R;
 
 public class CarpentersActivity extends AppCompatActivity {

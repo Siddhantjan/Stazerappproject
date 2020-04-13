@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ratecaed.PlumberRateCard">
+    <ScrollView
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/top_bar_rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="Labour Charges are capped at Rs. 199 per Booking "/>
+
+
+        <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+         <RelativeLayout
+          android:background="@drawable/borderline"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+           <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Decription"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_alignParentLeft="true"/>
+            <TextView
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Service Charge"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_alignParentRight="true"/>
+         </RelativeLayout>
+         <RelativeLayout
+           android:background="@drawable/borderline"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bath Fitting Installation "
+            android:textColor="@color/black"
+            android:layout_alignParentLeft="true"/>
+            <TextView
+            android:layout_marginRight="10dp"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text=" Rs. 149"
+                android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_alignParentRight="true"/>
+         </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Shower Installation: Ceiling Mounted"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text=" Rs. 199"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Showver Installation:Wall Mounted/Handheld"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text=" Rs. 199"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Balcony Pipe"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text=" Rs. 299"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Draining Pipe (Overground)"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text=" Rs. 199"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Draining Pipe (Underground)"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text=" Rs. 399"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Toilet Pot "
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text=" Rs. 1399"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hot and Cold Water mixer Repair"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text=" Rs. 349"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hot and Cold Water Mixer Installation"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text=" Rs. 499"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tap Installation"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text=" Rs. 99"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tap Repair"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text=" Rs. 99"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tap Replacement"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text=" Rs. 149"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Water Saving Nozzle"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text=" Rs. 149"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Extension Nipple Repair"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text=" Rs. 149"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Water Diverter Repair"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text=" Rs. 299"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Flush Tank Repair(Concelad)"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text=" Rs. 399"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Flush Tank Repair(External)"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text=" Rs. 199"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Flush Tank Replacement"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text=" Rs. 599"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Indian Toilet Installation"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text=" Rs. 1849"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Western Toilet Installation(Floor Mounted)"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text=" Rs. 1699"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Western Toilet Repair(Floor Mounted)"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text=" Rs. 799"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Western Toilet Replacement(FloorMounted)"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text=" Rs. 1999"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Western Jet Spray Instalation/Repair"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text=" Rs. 199"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Motor Installation"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text=" Rs. 499"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Motor Winding"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text=" Rs. 699"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+            android:background="@drawable/borderline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Capacitor/Valve Repair"
+                android:textColor="@color/black"
+                android:layout_alignParentLeft="true"/>
+            <TextView
+                android:layout_marginRight="10dp"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text=" Rs. 149"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Motor Seal"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text=" Rs. 199"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Motor Air Cavity Removal"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text=" Rs. 149"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+            android:background="@drawable/borderline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bearings Replacement (Mechanical Failure)"
+                android:textColor="@color/black"
+                android:layout_alignParentLeft="true"/>
+            <TextView
+                android:layout_marginRight="10dp"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text=" Rs. 549"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Washing Maching Inlet"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text=" Rs. 199"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+      </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

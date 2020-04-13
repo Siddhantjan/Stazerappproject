@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".services.ElectricianActivity">
+    tools:context=".services.otherservices.GeyserActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,11 +13,11 @@
 
 
         <TextView
-            android:id="@+id/elcctricianserviceselectbtn"
+            android:id="@+id/geyserserviceselectbtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Electrician"
+            android:text="Geyser Service"
             android:textColor="@color/black"
             android:textSize="30sp"
             android:textStyle="bold" />
@@ -41,7 +42,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="20dp"
-                android:text="A Normal Inspection charges - 199/-"/>
+                android:text="A Normal Inspection charges - 249/-"/>
             <TextView
                 android:layout_marginLeft="8dp"
                 android:layout_width="match_parent"
@@ -55,7 +56,7 @@
                 android:text="Rates as per Rate Card"
                 android:textSize="20dp"/>
             <Button
-                android:id="@+id/elerate"
+                android:id="@+id/geyserrate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="25dp"
@@ -74,7 +75,7 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/electricanserviceboookbutton"
+            android:id="@+id/geyserserviceboookbutton"
             android:layout_margin="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

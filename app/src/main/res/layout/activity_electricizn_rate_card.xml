@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ratecaed.ElectriciznRateCard">
+
+    <ScrollView
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/top_bar_rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="Labour Charges are capped at Rs. 199 per Booking "/>
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <RelativeLayout
+        android:background="@drawable/borderline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Decription"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_alignParentLeft="true"/>
+        <TextView
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Service Charge"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AC Switchbox Installation"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 349"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Switchboard Installation "
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 349"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Switchboard Repair "
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 149"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Switch/Socket Replacement"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 99"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ceilingfan Regulator Replacement"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 99"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Decorative Ceilingfan Installation "
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 449"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fan Installation "
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 149"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fan Repair (Speed Issue)"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 99"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fan Repair (Noise Issue)"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 299"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fan Replacement "
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 199"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fan Uninstallation"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 99"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Decorative Wall Light/Ceiling Light"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 149"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tubelight"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 99"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fuse Installation"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 99"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Single Pole Mcb Installation"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 99"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Double Pole MCB installation"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 249"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Triple Pole MCB Installation"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 299"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3phase changeover Switch installation"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 349"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Four Pole MCB Installation"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 349"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sub Meter Installation"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 299"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Inverter Single Battery Installation"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 449"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Inverter Double Battery Installation"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 549"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Inverter Fuse Repair"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 149"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Inverter Servicing"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 249"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Stabilizer Installation or Repair"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 249"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Geyser Installation"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 499"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Geyser Uninstallation"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 399"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Stabilizer Installation or Repair"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 249"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wiring without casing (upto 5m)"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 149"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wiring with casing(upto 5m)"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 249"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Internal Wiring (uoto 5m)"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 249"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Door Bell Installation"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 99"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Room heater Repair"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 299"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

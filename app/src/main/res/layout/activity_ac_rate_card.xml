@@ -46,10 +46,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
     <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
-    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -62,13 +62,14 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
         <RelativeLayout
+            android:background="@drawable/borderline"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Decription"
+        android:text=" Decription"
         android:textColor="@color/black"
         android:textStyle="bold"
         android:textSize="25sp"
@@ -85,6 +86,7 @@
 </RelativeLayout>
 
         <RelativeLayout
+            android:background="@drawable/borderline"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -96,13 +98,14 @@
                 android:layout_alignParentLeft="true"/>
             <TextView
                 android:layout_marginRight="10dp"
-                android:layout_width="wrap_content"
+                android:layout_width="110dp"
                 android:layout_height="wrap_content"
                 android:text="Rs. 499"
                 android:textColor="@color/black"
                 android:layout_alignParentRight="true"/>
         </RelativeLayout>
     <RelativeLayout
+        android:background="@drawable/borderline"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -114,7 +117,7 @@
             android:layout_alignParentLeft="true"/>
         <TextView
             android:layout_marginRight="10dp"
-            android:layout_width="wrap_content"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:text="Rs. 599"
             android:textColor="@color/black"
@@ -123,6 +126,7 @@
 
 
     <RelativeLayout
+        android:background="@drawable/borderline"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -134,7 +138,7 @@
             android:layout_alignParentLeft="true"/>
         <TextView
             android:layout_marginRight="10dp"
-            android:layout_width="wrap_content"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:text="Rs. 549"
             android:textColor="@color/black"
@@ -144,6 +148,7 @@
 
 
     <RelativeLayout
+        android:background="@drawable/borderline"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -154,7 +159,7 @@
             android:textColor="@color/black"
             android:layout_alignParentLeft="true"/>
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:text="Rs. 2499"
             android:layout_marginRight="10dp"
@@ -164,6 +169,7 @@
     </RelativeLayout>
 
     <RelativeLayout
+        android:background="@drawable/borderline"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -174,7 +180,7 @@
             android:textColor="@color/black"
             android:layout_alignParentLeft="true"/>
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:text="Rs. 549"
             android:layout_marginRight="10dp"
@@ -183,6 +189,7 @@
 
     </RelativeLayout>
     <RelativeLayout
+        android:background="@drawable/borderline"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -193,7 +200,7 @@
             android:textColor="@color/black"
             android:layout_alignParentLeft="true"/>
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:text="Rs. 1249"
             android:layout_marginRight="10dp"
@@ -202,6 +209,7 @@
 
     </RelativeLayout>
     <RelativeLayout
+        android:background="@drawable/borderline"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -212,7 +220,7 @@
             android:textColor="@color/black"
             android:layout_alignParentLeft="true"/>
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:text="Rs. 249"
             android:layout_marginRight="10dp"
@@ -221,6 +229,7 @@
 
     </RelativeLayout>
     <RelativeLayout
+        android:background="@drawable/borderline"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -231,7 +240,7 @@
             android:textColor="@color/black"
             android:layout_alignParentLeft="true"/>
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:text="Rs. 749"
             android:layout_marginRight="10dp"
@@ -240,6 +249,7 @@
 
     </RelativeLayout>
     <RelativeLayout
+        android:background="@drawable/borderline"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -250,7 +260,7 @@
             android:textColor="@color/black"
             android:layout_alignParentLeft="true"/>
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:text="Rs. 449"
             android:layout_marginRight="10dp"
@@ -259,6 +269,7 @@
 
     </RelativeLayout>
     <RelativeLayout
+        android:background="@drawable/borderline"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -269,9 +280,9 @@
             android:textColor="@color/black"
             android:layout_alignParentLeft="true"/>
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
-            android:text="Rs. 3999"
+            android:text=" Rs. 3999"
             android:layout_marginRight="10dp"
             android:textColor="@color/black"
             android:layout_alignParentRight="true"/>
@@ -279,6 +290,7 @@
     </RelativeLayout>
 
     <RelativeLayout
+        android:background="@drawable/borderline"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -289,7 +301,7 @@
             android:textColor="@color/black"
             android:layout_alignParentLeft="true"/>
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:text="Rs. 9549"
             android:layout_marginRight="10dp"
@@ -298,6 +310,7 @@
 
     </RelativeLayout>
     <RelativeLayout
+        android:background="@drawable/borderline"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -308,7 +321,7 @@
             android:textColor="@color/black"
             android:layout_alignParentLeft="true"/>
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:text="Rs. 549"
             android:layout_marginRight="10dp"
@@ -317,6 +330,7 @@
 
     </RelativeLayout>
     <RelativeLayout
+        android:background="@drawable/borderline"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -327,7 +341,7 @@
             android:textColor="@color/black"
             android:layout_alignParentLeft="true"/>
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:text="Rs. 750"
             android:layout_marginRight="10dp"
@@ -336,6 +350,7 @@
     </RelativeLayout>
 
     <RelativeLayout
+        android:background="@drawable/borderline"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -349,7 +364,7 @@
             android:textColor="@color/black" />
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:layout_marginRight="0dp"
@@ -370,6 +385,7 @@
     </RelativeLayout>
 
     <RelativeLayout
+        android:background="@drawable/borderline"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -380,7 +396,7 @@
             android:textColor="@color/black"
             android:layout_alignParentLeft="true"/>
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_alignParentRight="true">
@@ -400,32 +416,38 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/borderline"
         android:orientation="horizontal">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
             android:text="Capacitor 50-60 mfd "
-            android:textColor="@color/black"
-            android:layout_alignParentLeft="true"/>
+            android:textColor="@color/black" />
+
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_alignParentRight="true">
+            android:layout_alignParentRight="true"
+            android:orientation="vertical">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Rs. 749"
-                android:textColor="@color/black"/>
+                android:textColor="@color/black" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Rs. 349 (Labour)"
-                android:textColor="@color/black"/>
+                android:textColor="@color/black" />
         </LinearLayout>
     </RelativeLayout>
 
     <RelativeLayout
+        android:background="@drawable/borderline"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -436,7 +458,7 @@
             android:textColor="@color/black"
             android:layout_alignParentLeft="true"/>
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_alignParentRight="true">
@@ -454,6 +476,7 @@
     </RelativeLayout>
 
     <RelativeLayout
+        android:background="@drawable/borderline"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -464,7 +487,7 @@
             android:textColor="@color/black"
             android:layout_alignParentLeft="true"/>
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_alignParentRight="true">
@@ -482,6 +505,7 @@
     </RelativeLayout>
 
     <RelativeLayout
+        android:background="@drawable/borderline"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -492,7 +516,7 @@
             android:textColor="@color/black"
             android:layout_alignParentLeft="true"/>
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_alignParentRight="true">
@@ -509,6 +533,7 @@
         </LinearLayout>
     </RelativeLayout>
     <RelativeLayout
+        android:background="@drawable/borderline"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -519,7 +544,7 @@
             android:textColor="@color/black"
             android:layout_alignParentLeft="true"/>
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_alignParentRight="true">
@@ -536,6 +561,7 @@
         </LinearLayout>
     </RelativeLayout>
     <RelativeLayout
+        android:background="@drawable/borderline"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -546,7 +572,7 @@
             android:textColor="@color/black"
             android:layout_alignParentLeft="true"/>
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_alignParentRight="true">
@@ -564,6 +590,7 @@
         </LinearLayout>
     </RelativeLayout>
     <RelativeLayout
+        android:background="@drawable/borderline"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -574,7 +601,7 @@
             android:textColor="@color/black"
             android:layout_alignParentLeft="true"/>
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_alignParentRight="true">
@@ -591,6 +618,7 @@
         </LinearLayout>
     </RelativeLayout>
     <RelativeLayout
+        android:background="@drawable/borderline"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -601,7 +629,7 @@
             android:textColor="@color/black"
             android:layout_alignParentLeft="true"/>
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_alignParentRight="true">
@@ -619,6 +647,7 @@
         </LinearLayout>
     </RelativeLayout>
     <RelativeLayout
+        android:background="@drawable/borderline"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -629,7 +658,7 @@
             android:textColor="@color/black"
             android:layout_alignParentLeft="true"/>
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_alignParentRight="true">
@@ -646,6 +675,7 @@
         </LinearLayout>
     </RelativeLayout>
     <RelativeLayout
+        android:background="@drawable/borderline"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -656,7 +686,7 @@
             android:textColor="@color/black"
             android:layout_alignParentLeft="true"/>
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_alignParentRight="true">
@@ -673,6 +703,7 @@
         </LinearLayout>
     </RelativeLayout>
     <RelativeLayout
+        android:background="@drawable/borderline"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -683,7 +714,7 @@
             android:textColor="@color/black"
             android:layout_alignParentLeft="true"/>
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_alignParentRight="true">
@@ -701,6 +732,7 @@
     </RelativeLayout>
 
     <RelativeLayout
+        android:background="@drawable/borderline"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -711,7 +743,7 @@
             android:textColor="@color/black"
             android:layout_alignParentLeft="true"/>
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_alignParentRight="true">
