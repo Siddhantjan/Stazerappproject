@@ -15,7 +15,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=" Labour Charges are capped at Rs. 449 per Geyser "
+                android:text=" Labour Charges are capped at Rs. 449 per Bathroom Cleaning "
                 android:textSize="20sp"/>
 
             <LinearLayout
