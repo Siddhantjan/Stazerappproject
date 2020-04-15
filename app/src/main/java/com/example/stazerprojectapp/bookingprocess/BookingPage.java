@@ -45,6 +45,7 @@ Button confirmbookigservice;
         area=findViewById(R.id.areaspecification);
         servicespecification=findViewById(R.id.servicespecification);
 
+
         Button btpicker=(Button)findViewById(R.id.bt_picker);
         btpicker.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -63,6 +64,7 @@ Button confirmbookigservice;
                 String landMark=landmark.getText().toString().trim();
                 String coustmerarea=area.getText().toString().trim();
                 String servicedetails=servicespecification.getText().toString().trim();
+
                 if(name.isEmpty()){
                     username.setError("Enter your Name");
                     username.requestFocus();
@@ -90,9 +92,18 @@ Button confirmbookigservice;
                 }
 
                 String CoustmerAddress= flat+ landMark + coustmerarea;
+                String typeservice=servicesel.getText().toString();
+                String time=((TextView) findViewById(R.id.time_view)).getText().toString();
 
                 Intent intent = new Intent(BookingPage.this,BookingProcessingActivity.class);
+                intent.putExtra("servicename",typeservice);
+                intent.putExtra("Address",CoustmerAddress);
+                intent.putExtra("timeselect",time);
                 startActivity(intent);
+                //String s = acserviceselected.getText().toString();
+                //Intent tarnsfer = new Intent(.this,BookingPage.class);
+               // tarnsfer.putExtra("Service",s);
+               // startActivity(tarnsfer);
             }
         });
 

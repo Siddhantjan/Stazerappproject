@@ -15,8 +15,109 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=" Labour Charges are capped at Rs. 449 per Bathroom Cleaning "
+                android:text=" Ensuring a safe and Hygienic Environment "
                 android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" * 360 Degree Cleaning"
+                android:textSize="20sp"/>
+            <LinearLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="Bathroom Cleaning"
+                    android:gravity="center"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <RelativeLayout
+                        android:background="@drawable/borderline"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" Decription"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:textSize="25sp"
+                            android:layout_alignParentLeft="true"/>
+                        <TextView
+                            android:layout_marginRight="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Service Charge"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:textSize="25sp"
+                            android:layout_alignParentRight="true"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" 1 Bathroom"
+                            android:textColor="@color/black"
+                            android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Areas Covered:-"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" * Floor and Wall  tiles"
+                            android:textColor="@color/black"
+                            android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * Metallic Fixtures: Taps Faucet,Shower,Head"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * Toilet And Wash Basin "
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * Exhaust fan,Geyser,Mirror,Door,Window "
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                        </LinearLayout>
+                        <TextView
+                            android:layout_marginRight="10dp"
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:text="Rs . 549"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:layout_alignParentRight="true"/>
+                  </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
 
             <LinearLayout
                 android:background="@drawable/borderline"
@@ -29,7 +130,154 @@
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
                     android:textStyle="bold"
-                    android:text="Services"
+                    android:text="Deep Kitchen Cleaning"
+                    android:gravity="center"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <RelativeLayout
+                        android:background="@drawable/borderline"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" Decription"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:textSize="25sp"
+                            android:layout_alignParentLeft="true"/>
+                        <TextView
+                            android:layout_marginRight="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Service Charge"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:textSize="25sp"
+                            android:layout_alignParentRight="true"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Kitchen cleaning(With Chimney)"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Areas Covered :-"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * Cleaning of gas stove, tiles slabs and shelves"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * Exterior degreasing of exhaust fan"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * Disinfection of kitchen floor  "
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * Chimney degreasing and filter cleaning "
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                        </LinearLayout>
+                        <TextView
+                            android:layout_marginRight="10dp"
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:text="Rs . 1999"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:layout_alignParentRight="true"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:background="@drawable/borderline"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Kitchen cleaning(Without Chimney)"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Areas Covered :-"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * Cleaning of gas stove, tiles slabs and shelves"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * Exterior degreasing of exhaust fan"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * Disinfection of kitchen floor  "
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                        </LinearLayout>
+                        <TextView
+                            android:layout_marginRight="10dp"
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:text="Rs . 1599"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:layout_alignParentRight="true"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="Car Washing"
                     android:gravity="center"/>
 
                 <LinearLayout
@@ -61,62 +309,485 @@
                     </RelativeLayout>
                     <RelativeLayout
                         android:background="@drawable/borderline"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-                        <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text=" Geyser Installation"
-                            android:textColor="@color/black"
-                            android:layout_alignParentLeft="true"/>
-                        <TextView
-                            android:layout_marginRight="10dp"
-                            android:layout_width="110dp"
-                            android:layout_height="wrap_content"
-                            android:text="Rs. 549"
-                            android:textColor="@color/black"
-                            android:layout_alignParentRight="true"/>
-                    </RelativeLayout>
-                    <RelativeLayout
-                        android:background="@drawable/borderline"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text=" Geyser Servicing"
-                            android:textColor="@color/black"
-                            android:layout_alignParentLeft="true"/>
-                        <TextView
-                            android:layout_marginRight="10dp"
-                            android:layout_width="110dp"
-                            android:layout_height="wrap_content"
-                            android:text="Rs. 749"
-                            android:textColor="@color/black"
-                            android:layout_alignParentRight="true"/>
-                    </RelativeLayout>
-                    <RelativeLayout
-                        android:background="@drawable/borderline"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text=" Geyser uninstallation"
-                            android:textColor="@color/black"
-                            android:layout_alignParentLeft="true"/>
-                        <TextView
-                            android:layout_marginRight="10dp"
-                            android:layout_width="110dp"
-                            android:layout_height="wrap_content"
-                            android:text="Rs. 449"
-                            android:textColor="@color/black"
-                            android:layout_alignParentRight="true"/>
-                    </RelativeLayout>
+                            android:orientation="vertical">
+                            <TextView
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Car Wash"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * only outer body cleaning by water and cleaning liquid"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Areas Covered:-"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * Outer body"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * Front Mirror,Back Mirror, Side Glass"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * all Tyres "
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
 
+                        </LinearLayout>
+                        <TextView
+                            android:layout_marginRight="10dp"
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:text="Rs . 599"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:layout_alignParentRight="true"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:background="@drawable/borderline"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Car Wash (With inside cleaning)"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Areas Covered:-"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * complete Outer body"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * Front Mirror,Back Mirror, Side Glass(Both-side inside and outside "
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * inside dashboard ,seats, tyres"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+
+                        </LinearLayout>
+                        <TextView
+                            android:layout_marginRight="10dp"
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:text="Rs . 1399"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:layout_alignParentRight="true"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@drawable/borderline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="Full Home Deep Cleaning"
+                    android:gravity="center"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <RelativeLayout
+                        android:background="@drawable/borderline"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" Decription"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:textSize="25sp"
+                            android:layout_alignParentLeft="true"/>
+                        <TextView
+                            android:layout_marginRight="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Service Charge"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:textSize="25sp"
+                            android:layout_alignParentRight="true"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:background="@drawable/borderline"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" 1 BHK Full Home Cleaning"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Service Includes:-"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * Buffing of the entire house floor"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * Deep Cleaning of Kitchen and all bathroom"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * DryVacuuming of all fabrics incl.sofa Carpet and mattress "
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * Hard to reach areas incl Fans,Exhausts,cobweb removal,etc "
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                        </LinearLayout>
+                        <TextView
+                            android:layout_marginRight="10dp"
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:text="Rs . 4499"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:layout_alignParentRight="true"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:background="@drawable/borderline"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" 2 BHK Full Home Cleaning"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Service Includes:-"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * Buffing of the entire house floor"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * Deep Cleaning of Kitchen and all bathroom"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * DryVacuuming of all fabrics incl.sofa Carpet and mattress "
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * Hard to reach areas incl Fans,Exhausts,cobweb removal,etc "
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                        </LinearLayout>
+                        <TextView
+                            android:layout_marginRight="10dp"
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:text="Rs . 5200"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:layout_alignParentRight="true"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:background="@drawable/borderline"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" 3 BHK Full Home Cleaning"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Service Includes:-"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * Buffing of the entire house floor"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * Deep Cleaning of Kitchen and all bathroom"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * DryVacuuming of all fabrics incl.sofa Carpet and mattress "
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * Hard to reach areas incl Fans,Exhausts,cobweb removal,etc "
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                        </LinearLayout>
+                        <TextView
+                            android:layout_marginRight="10dp"
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:text="Rs . 5999"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:layout_alignParentRight="true"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:background="@drawable/borderline"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" 4 BHK Full Home Cleaning"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Service Includes:-"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * Buffing of the entire house floor"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * Deep Cleaning of Kitchen and all bathroom"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * DryVacuuming of all fabrics incl.sofa Carpet and mattress "
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * Hard to reach areas incl Fans,Exhausts,cobweb removal,etc "
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                        </LinearLayout>
+                        <TextView
+                            android:layout_marginRight="10dp"
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:text="Rs . 7999"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:layout_alignParentRight="true"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:background="@drawable/borderline"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" 5 BHK Full Home Cleaning"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Service Includes:-"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * Buffing of the entire house floor"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * Deep Cleaning of Kitchen and all bathroom"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * DryVacuuming of all fabrics incl.sofa Carpet and mattress "
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * Hard to reach areas incl Fans,Exhausts,cobweb removal,etc "
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                        </LinearLayout>
+                        <TextView
+                            android:layout_marginRight="10dp"
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:text="Rs . 9999"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:layout_alignParentRight="true"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:background="@drawable/borderline"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" 2000-3000 sq. ft. Villa"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Service Includes:-"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * Buffing of the entire house floor"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * Deep Cleaning of Kitchen and all bathroom"
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * DryVacuuming of all fabrics incl.sofa Carpet and mattress "
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" * Hard to reach areas incl Fans,Exhausts,cobweb removal,etc "
+                                android:textColor="@color/black"
+                                android:layout_alignParentLeft="true"/>
+                        </LinearLayout>
+                        <TextView
+                            android:layout_marginRight="10dp"
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:text="Rs . 15999"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:layout_alignParentRight="true"/>
+                    </RelativeLayout>
                 </LinearLayout>
             </LinearLayout>
 
